@@ -1,6 +1,6 @@
 This repository contains the MATLAB code used in Schretter et al. 2024 ("Social state alters vision using three circuit mechanisms in Drosophila") to analyze visual features during female aggression and male courtship behavior and generate the behavioral timeseries and averages depicted in the figures. 
 
-This code was run using MATLAB_R2021b and the run time is less than 1 min for the timeseries and averages data. Depending on the size of the dataset, the run time for the visual features code can be 10 minutes. 
+This code was run using MATLAB_R2019a and the run time is less than 1 min for the timeseries and averages data. Depending on the size of the dataset, the run time for the visual features code can be 10 minutes. 
 
 The timeseries data and averages used the code in the following directory: TimeseriesANDAvg. 
 Note: This code requires your data to be in the registered_trx.mat format from the FlyDisco pipeline (see GitHub repo: https://github.com/kristinbranson/FlyDiscoAnalysis for more details on this pipeline). It has not been tested for compatibility with other inputs. Source data are supplied in the paper and in figshare (DOI: 10.25378/janelia.26847772). The output of this code is an csv file and this code was created by A. A. Robie and modified and commented by C. E. Schretter.  
